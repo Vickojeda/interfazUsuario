@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<link srv="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+
+</head>
+<body>
+   <h2>
+        <p class="text-lg-center" style="color:blue">
+    Formulario de registro
+</p></h2> 
+<br>
+    <form>
+        <div class="mb-3" style="width: 600px;">
+            <label for="fullLNameLabel" class="form-label" style="margin-left: 50px;">Nombre Completo:</label>
+            <input type="email" class="form-control" id="fullNameInput" aria-describedby="emailHelp" style="margin-left: 50px;" placeholder="Ingresa tu nombre y apellidos">
+          </div>  
+        <div class="mb-3" style="width: 300px;">
+            <label for="bithDateLabel" class="form-label" style="margin-left: 50px;">Fecha de Nacimiento:</label>
+            <input type="date" class="form-control" id="birthDateInput" aria-describedby="emailHelp" style="margin-left: 50px;">
+          </div> 
+        <div class="mb-3" style="width: 300px;">
+            <label for="direccionLabel" class="form-label" style="margin-left: 50px;">Direcci&oacute;n:</label>
+            <input type="email" class="form-control" id="direccionInput" aria-describedby="emailHelp" style="margin-left: 50px;"> 
+          </div>
+          <div class="mb-3" style="width: 300px;">
+            <label for="userNameLabel" class="form-label" style="margin-left: 50px;">Nombre de usuario:</label>
+            <input type="email" class="form-control" id="userNameInput" aria-describedby="emailHelp" style="margin-left: 50px;">
+        </div>
+        <div class="mb-3" style="width: 300px;">
+            <label for="emailLabel" class="form-label" style="margin-left: 50px;">Correo electr&oacute;nico:</label>
+            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" style="margin-left: 50px;"placeholder="example@gmail.com">
+        </div>
+       <div class="mb-3" style="width: 700px;">
+        <label  for="passwordLabel" style="margin-left: 50px;">Contraseña:</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" style="margin-left: 50px;">
+        <small id="passwordHelpBlock" class="form-text text-muted" style="margin-left: 50px;">
+          Tu contraseña debe tener entre 6-18 caracteres, al menos un número y al menos una letra en mayúscula.
+        </small>
+    </div>     
+    <div class="mb-3" style="width: 700px;">
+        <label  for="passwordLabel" style="margin-left: 50px;">Confirmar Contraseña:</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" style="margin-left: 50px;">
+    </div>
+        <div style="margin-left: 200px">
+            <button class="btn btn-primary me-md-2" type="button">Enviar</button>
+            <button class="btn btn-primary me-md-2" type="button">Limpiar</button>
+        </div>  
+        <br>
+        <br>
+    </form>
+ 
+</body>
+
+</html>
